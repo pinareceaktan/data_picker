@@ -1,9 +1,29 @@
-# Twitter Data Picker Utils
+# Data Picker
+
+This function picks data from twitter. 
+
+## Getting Started
+
+To search for any keywords. Write down the keywords to words_list.
+
+### Prerequisites
+
+Code depends on tweepy, written in Python 3.5.
+run
 
 ```
-It reads from words_list
-than checks for each keywords in twitter. And saves it to jsons.
-It is like /keyword/keyword
-You can read these jsons with read_json.py, it saves data to pickle and excel csv.
+pickem.py
 ```
+
+Pickem.py saves the tweets into json files. 
+
+## Reading jsons
+
+To read jsons, run ``` read_json.py ``` 
+
+### Data format
+
+All tweets will be saved as pickle and will be write down in excel.
+
+
 
